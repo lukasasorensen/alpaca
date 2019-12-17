@@ -10,6 +10,12 @@
 /site/_site
 /site/lib
 
+/lib 
+
+!/lib/handlebars/handlebars.min.js
+!/lib/jquery-maskedinput/dist/jquery.maskedinput.min.js
+!/lib/jquery-price-format2/jquery.price_format.min.js
+
 notes.md
 
 /customers
