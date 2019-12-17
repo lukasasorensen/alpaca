@@ -6,13 +6,11 @@
 /build
 
 /node_modules
-/lib
 
 /site/_site
 /site/lib
 
 notes.md
-/dist
 
 /customers
 /npm
