@@ -24265,7 +24265,9 @@ this["HandlebarsPrecompiled"]["jquerymobile-edit"]["message"] = Handlebars.templ
 
             this.base(model, function() {
 
-                $(field).priceFormat(self.options);
+                setTimeout(function() {
+                    $(field).priceFormat(self.options);
+                }, 1);
 
                 callback();
 

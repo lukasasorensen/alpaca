@@ -23734,7 +23734,9 @@ this["HandlebarsPrecompiled"]["web-edit"]["wizard"] = Handlebars.template({"1":f
 
             this.base(model, function() {
 
-                $(field).priceFormat(self.options);
+                setTimeout(function() {
+                    $(field).priceFormat(self.options);
+                }, 1);
 
                 callback();
 
